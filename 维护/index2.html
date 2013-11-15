@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+body{ background:#F09709; font:"微软雅黑";}
+*{ margin:0; padding:0; border:0;}
+a{ text-decoration:none;}
+.cle{ clear:both; height:0; width:0;}
+.main{ width:1600px; height:930px; margin:0 auto; position: relative;}
+#loginDiv{ width:1200px; height:838px; z-index:2222; position:absolute; margin-top:-880px;margin-left:170px;*margin-left:-1430px; *margin-top:50px;}
+/*推荐其他游戏*/
+.qita{ float:left; width:280px; height:60px; margin-left:206px; margin-top:160px;}
+.qita a{text-align:center; color:#F09709; font-size:42px; font-weight:bold; font-family:"微软雅黑";}
+/*游戏*/
+.yx1{ float:left; width:240px; height:100px; margin-left:42px; margin-top:60px;}
+.yx1 a{text-align:center; color:#F09709; font-size:72px; font-weight:bold; font-family:"微软雅黑";}
+/*游戏2*/
+.yx2{ float:left; width:220px; height:50px; margin-left:90px; margin-top:240px;}
+.yx2 a{text-align:center; color:#F09709; font-size:42px; font-family:"微软雅黑";}
+/*游戏3*/
+.yx3{ float:left; width:240px; height:50px; margin-left:550px; margin-top:135px;}
+.yx3 a{text-align:center; color:#F09709; font-size:42px; font-weight:bold; font-family:"微软雅黑";}
+/*游戏4*/
+.yx4{ float:left; width:240px; height:50px; margin-left:640px; margin-top:65px;}
+.yx4 a{text-align:center; color:#F09709; font-size:72px; font-weight:bold; font-family:"微软雅黑";}
+</style>
+<script type="text/javascript">
+function showreg()
+{
+    var ele = document.getElementById("loginDiv");
+    ele.style.display = "block";
+}
+</script>
+</head>
+<body>
+<div class="main">
+<div style="position:absolute;z-index:1;"> <!--1.设置FLASH为底层-->
+<object style="z-index:10;" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1600" height="936" onmousedown="showreg()">
+    <param name="movie" value="images/whu.swf" />
+    <param name="quality" value="high" />
+    <param name="wmode" value="transparent" /> <!--2.必须把FLASH设置为透明，如果不设置的话，别的图片是不能够覆盖该flash的，也就不能够实现鼠标点击事件-->
+    <embed src="images/whu.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" 
+width="1600" height="936"></embed> 
+</object>
+<div id="loginDiv" style="z-index:17;">
+<div class="qita"><a href="##">推荐其他游戏</a></div>
+<div class="yx1"><a href="##">枪魂</a></div>
+<div class="cle"></div>
+<div class="yx2"><a href="##">最无级</a></div>
+<div class="yx3"><a href="##">冒险契约</a></div>
+<div class="cle"></div>
+<div class="yx4"><a href="##">返回<br />官网</a></div>
+</div>
+</div>
+</div>
+</body>
+</html>
