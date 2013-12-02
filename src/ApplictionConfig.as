@@ -2,6 +2,7 @@ package
 {
 	import flash.filesystem.File;
 	import flash.geom.Rectangle;
+	import starling.display.Image;
 	
 	import feathers.display.Scale9Image;
 	import feathers.textures.Scale9Textures;
@@ -60,6 +61,10 @@ package
 		/*var filter:ColorMatrixFilter = new ColorMatrixFilter();
 		filter.adjustHue(-1);
 		_bt.filter=filter;*/
+		
+		public static function creaImage(name:String):Image {
+			return new Image(assets.getTexture(name));
+			}
 		
 		/**
 		 * 创建9宫格图片

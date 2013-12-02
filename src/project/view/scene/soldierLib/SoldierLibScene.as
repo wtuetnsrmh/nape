@@ -5,6 +5,7 @@ package project.view.scene.soldierLib
 	 */	
 	import flash.display3D.textures.Texture;
 	import flash.system.System;
+	import project.model.data.PlayerData;
 	
 	import feathers.display.Scale9Image;
 	import feathers.layout.HorizontalLayout;
@@ -39,7 +40,9 @@ package project.view.scene.soldierLib
 		private var _deleteDeckBt:MyButton;
 		private var _returnBt:MyButton;
 		private var _deckName:TextField;
+		private var _deckItems:Vector.<DeckItem>;
 		
+		private var _deckgrid:BaseGridContainer;
 		private var _grid:BaseGridContainer;
 		private var _scrollCont:ScrollContainer;
 		public function SoldierLibScene()
@@ -85,7 +88,15 @@ package project.view.scene.soldierLib
 			_bgLayer.flatten();
 			
 			
-			
+			_deckItems = new Vector.<DeckItem>();
+			_deckgrid = new BaseGridContainer(2, 4, 10, 100, 100);
+			addChild(_deckgrid);
+			for (var i:int = 0; i < 8; i++ ) {
+				var tempDeckItem:DeckItem = new DeckItem();
+				_deckgrid.appendChild(tempDeckItem);
+				_deckItems.push(tempDeckItem);
+				tempDeckItem = null;
+				}
 			
 			
 			this.x=ApplictionConfig.STAGE_WIDTH-this.width>>1;
@@ -111,9 +122,13 @@ package project.view.scene.soldierLib
 		{
 			//删除UI层以外的对象
 			if(this.visible){
-				_scrollCont.reset(true);
+				/*_scrollCont.reset(true);
 				_scrollCont.dispose();
-				_scrollCont=null;
+				_scrollCont=null;*/
+				
+				for (var i:String in _deckItems) {
+					_deckItems[i].cardId = -1;
+					}
 				
 				for(var j:int = 0; j <_cardList.length; j++){
 					_cardList[j].dispose();
@@ -129,7 +144,7 @@ package project.view.scene.soldierLib
 		{
 			if(this.visible){
 				System.gc();
-				_scrollCont = new ScrollContainer();
+				/*_scrollCont = new ScrollContainer();
 				_scrollCont.width = (ApplictionConfig.MIDDLE_CARD_WIDTH+5)*4;
 				_scrollCont.height = ApplictionConfig.MIDDLE_CARD_HEIGHT+10;
 				//_scrollCont.verticalScrollPolicy=Scroller.SCROLL_POLICY_OFF;
@@ -150,7 +165,15 @@ package project.view.scene.soldierLib
 					_scrollCont.layout = layout;
 					_scrollCont.x=98.6;
 					_scrollCont.y=170.6;
-				}
+				}*/
+				for (var j:int = 0; j < _deckItems.length; j++ ) {
+					/*if (PlayerData.getInstance().decks[j]) {
+						_deckItems[j].locked = PlayerData.getInstance().decks[j].locked;
+						_deckItems[j].cardId = PlayerData.getInstance().decks[j].heroCard.id;
+						}*/
+					_deckItems[j].locked = false;
+					_deckItems[j].cardId = Math.random()*10+1;
+					}
 				
 				_cardList=new Vector.<Card>();
 				_grid=new BaseGridContainer(1,6,10,ApplictionConfig.MIDDLE_CARD_WIDTH,ApplictionConfig.MIDDLE_CARD_HEIGHT);

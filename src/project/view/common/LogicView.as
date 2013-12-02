@@ -34,7 +34,15 @@ package project.view.common
 		public function initUI():void{
 			
 		}
-		
+		//如果当前模块有单独的ui tx则这里构建此tx相关的ui界面,每次internalShow都要调用
+		protected function cardTexturUI():void
+		{
+			
+		}
+		protected function disposeTexturUI():void
+		{
+
+		}
 		public function show():void
 		{
 			if(this.visible)return;

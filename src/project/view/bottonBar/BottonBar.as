@@ -119,7 +119,7 @@ package project.view.bottonBar
 					 break;
 				 case MainScene:
 					 Root.vmgr.getView(BottonBar).show();
-					 Root.vmgr.showView(MainScene,null,["MainScene"]);
+					 Root.vmgr.showView(MainScene,null,["senceLib"]);
 					 Starling.current.nativeStage.frameRate=60;
 					 break;
 				 case BattleReadyPanel:

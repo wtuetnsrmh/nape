@@ -211,6 +211,11 @@ package project.Cellcard
 		}
 		
 		public function setCardModel(value:CardModel, updatFlag:Boolean = true, fun:Function = null):void {
+			if(_cardModle && _cardModle.id!=value.id){
+				ApplictionConfig.assets.clearRuntimeLoadTextureByPath(_cardModle.bigCardImage);
+				_cardModle=null;
+			}
+			
 			if(_currentCardTye==0){
 				if(!_bg)
 					_bg=new Image(ApplictionConfig.assets.getTexture("大卡背景图0000"));
