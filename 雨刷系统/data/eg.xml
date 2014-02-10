@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<data>
+<state _name="START" _id="0" >
+	<fault _name="BATTARY" >
+		<faultPart _name="正常" _v="9">
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,1,1,1"/>
+		</faultPart>
+		<faultPart _name="负极桩头氧化" _v="8">
+			<line poinId="11" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="22" _v="8" />
+			<flash _name="1,1,0,1,0,0"/>
+		</faultPart>
+	</fault>	
+</state>
+
+</data>

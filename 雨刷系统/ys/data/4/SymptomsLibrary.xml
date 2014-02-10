@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<!--症状库-->
+<data  description="症状库">
+<SymptomsPart partid="0" partname="马达" partnumber="S0018"  description="症状部件">
+<described Symptomsid="0" description = "症状描述" > <![CDATA[无任何反应]]></described>
+<described Symptomsid="1" description = "症状描述" > <![CDATA[有空转“呜”声]]></described>
+<described Symptomsid="2" description = "症状描述" > <![CDATA[有咔咔声]]></described>
+<described Symptomsid="3" description = "症状描述" > <![CDATA[电磁开关吸合声]]></described>
+</SymptomsPart>
+<SymptomsPart partid="1" partname="继电器" partnumber="S0020"  description="症状部件">
+<described Symptomsid="4" description = "症状描述" > <![CDATA[无动作声音]]></described>
+<described Symptomsid="5" description = "症状描述" > <![CDATA[有动作声音]]></described>
+</SymptomsPart>
+<SymptomsPart partid="2" partname="仪表灯" partnumber="S0021"  description="症状部件">
+<described Symptomsid="6" description = "症状描述" > <![CDATA[不能点亮]]></described>
+<described Symptomsid="7" description = "症状描述" > <![CDATA[能点亮]]></described>
+</SymptomsPart>
+<SymptomsPart partid="3" partname="按喇叭" partnumber="S0022"  description="症状部件">
+<described Symptomsid="8" description = "症状描述" > <![CDATA[声音响亮]]></described>
+<described Symptomsid="9" description = "症状描述" > <![CDATA[声音沙哑]]></described>
+<described Symptomsid="10" description = "症状描述" > <![CDATA[无声音]]></described>
+</SymptomsPart>
+<SymptomsPart partid="4" partname="开大灯" partnumber="S0023"  description="症状部件">
+<described Symptomsid="11" description = "症状描述" > <![CDATA[亮]]></described>
+<described Symptomsid="12" description = "症状描述" > <![CDATA[暗淡]]></described>
+<described Symptomsid="13" description = "症状描述" > <![CDATA[不亮]]></described>
+</SymptomsPart>
+<SymptomsPart partid="5" partname="挡位开关" partnumber="S0016"  description="症状部件">
+<described Symptomsid="14" description = "症状描述" > <![CDATA[有动作声音]]></described>
+<described Symptomsid="15" description = "症状描述" > <![CDATA[无动作声音]]></described>
+</SymptomsPart>
+<SymptomsPart partid="6" partname="蓄电池" partnumber="S0001"  description="症状部件">
+<described Symptomsid="16" description = "症状描述" > <![CDATA[外观正常]]></described>
+<described Symptomsid="17" description = "症状描述" > <![CDATA[桩头氧化]]></described>
+</SymptomsPart>
+</data>

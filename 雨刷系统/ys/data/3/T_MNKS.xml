@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<tmnksdata>
+<!--time:考试时间
+_examNum:考试题目
+-->
+<mnks _time="10" _examNum="3"/>
+</tmnksdata>

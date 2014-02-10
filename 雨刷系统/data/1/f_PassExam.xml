@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<!--
+部件认识-入门培训
+-->
+<data _time="1">
+<tool score="5">
+<toolImageS _url="images/first/入门培训/实物图/1.jpg"/>
+<toolImageD _url="images/first/入门培训/电路图/1.jpg"/>	
+<partName _title="这个部件的名称叫:" _text="蓄电池" />
+<Effect _title="这个部件的作用是?" _text="蓄电池的作用是供给发动机用电；在发动机低速运转，发动机发电不足的时候，给照明、音响装置、点火系统用电；当发动机高速运转，发电机机发电充足的时候，储存多传余电能。此外，蓄电池还起着稳定全车电系电压的作用。由于汽车电源系统一般采用双电源供电，即蓄电池和发电机并联工作。故蓄电池的充、放电情况，可通过电流表显示或充电指示灯亮灭指示。"/>
+</tool>
+
+<tool score="10">
+<toolImageS _url="images/first/入门培训/实物图/2.jpg"/>
+<toolImageD _url="images/first/入门培训/电路图/2.jpg"/>	
+<partName _title="这个部件的名称叫:" _text="点火开关" />
+<Effect _title="这个部件的作用是?" _text="接通启动电动机发动车辆、给车内其它用电设备供电。注：部分汽车的点火开关兼顾电源总开关功能。"/>
+</tool>
+
+<tool score="3">
+<toolImageS _url="images/first/入门培训/实物图/3.jpg"/>
+<toolImageD _url="images/first/入门培训/电路图/3.jpg"/>	
+<partName _title="这个部件的名称叫:" _text="继电器" />
+<Effect _title="这个部件的作用是?" _text="继电器的作用是以小电流控制大电流；启动继电器的作用则是通过控制启动继电器的线圈（小电流），实现对启动机的启动控制（50端子供电控制，大电流）。"/>
+</tool>
+
+<tool score="6">
+<toolImageS _url="images/first/入门培训/实物图/4.jpg"/>
+<toolImageD _url="images/first/入门培训/电路图/4.jpg"/>	
+<partName _title="这个部件的名称叫:" _text="档位开关" />
+<Effect _title="这个部件的作用是?" _text="锁定挡位用的，自动挡的汽车只有在空挡（P挡或N挡）时才可以启动发动机，目的是自动挡车辆的使用安全性及性能考虑。"/>
+</tool>
+
+<tool score="9">
+<toolImageS _url="images/first/入门培训/实物图/5.jpg"/>
+<toolImageD _url="images/first/入门培训/电路图/5.jpg"/>	
+<partName _title="这个部件的名称叫:" _text="发动机" />
+<Effect _title="这个部件的作用是?" _text="通过启动机，将汽车蓄电池的电能转化为机械能。驱动飞轮运转以启动发动机运转。"/>
+</tool>
+
+
+
+
+</data>

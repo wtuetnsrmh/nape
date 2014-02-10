@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <data description="部件故障症状库">
+      <SymptomsPart partid="1" short="BATTARY" partname="蓄电池" partnumber="1" description="症状部件">
+        <described Symptomsid="1" description="症状描述">
+          <![CDATA[
+外观正常
+          ]]>
+        </described>
+        <described Symptomsid="2" description="症状描述">
+          <![CDATA[
+严重亏电
+          ]]>
+        </described>
+        <described Symptomsid="3" description="症状描述">
+          <![CDATA[
+正极桩头氧化
+          ]]>
+        </described>
+      </SymptomsPart>
+      <SymptomsPart partid="3" short="RLY" partname="启动继电器" partnumber="3" description="症状部件">
+        <described Symptomsid="8" description="症状描述">
+          <![CDATA[
+无动作声音
+          ]]>
+        </described>
+        <described Symptomsid="9" description="症状描述">
+          <![CDATA[
+有动作声音
+          ]]>
+        </described>
+      </SymptomsPart>
+      <SymptomsPart partid="5" short="MTR" partname="启动机" partnumber="5" description="症状部件">
+        <described Symptomsid="4" description="症状描述">
+          <![CDATA[
+无任何反应
+          ]]>
+        </described>
+        <described Symptomsid="5" description="症状描述">
+          <![CDATA[
+有空转“呜”声
+          ]]>
+        </described>
+        <described Symptomsid="6" description="症状描述">
+          <![CDATA[
+有咔咔声
+          ]]>
+        </described>
+        <described Symptomsid="7" description="症状描述">
+          <![CDATA[
+电磁开关吸合声
+          ]]>
+        </described>
+      </SymptomsPart>
+      <SymptomsPart partid="12" short="INST_LAMP" partname="仪表灯" partnumber="13" description="症状部件">
+        <described Symptomsid="10" description="症状描述">
+          <![CDATA[
+不能点亮
+          ]]>
+        </described>
+        <described Symptomsid="11" description="症状描述">
+          <![CDATA[
+能点亮
+          ]]>
+        </described>
+      </SymptomsPart>
+      <SymptomsPart partid="13" short="HRN" partname="喇叭" partnumber="14" description="症状部件">
+        <described Symptomsid="14" description="症状描述">
+          <![CDATA[
+声音响亮
+          ]]>
+        </described>
+        <described Symptomsid="15" description="症状描述">
+          <![CDATA[
+声音沙哑
+          ]]>
+        </described>
+      </SymptomsPart>
+      <SymptomsPart partid="14" short="HDLT" partname="大灯" partnumber="15" description="症状部件">
+        <described Symptomsid="12" description="症状描述">
+          <![CDATA[
+明亮
+          ]]>
+        </described>
+        <described Symptomsid="13" description="症状描述">
+          <![CDATA[
+暗淡
+          ]]>
+        </described>
+      </SymptomsPart>
+    </data>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <data description="部件故障原因表">
+      <part partid="1" short="BATTARY" partname="蓄电池" partnumber="1" description="部件ID、部件简称、部件名称、部件编号">
+        <fault faultid="23" faultname="严重亏电" score="0" description="故障ID、故障名称、故障点确定配分">
+          <symptoms symptomsid="23" score="15" description="故障点id,分数"></symptoms>
+        </fault>
+        <fault faultid="22" faultname="正极桩头氧化" score="0" description="故障ID、故障名称、故障点确定配分">
+          <symptoms symptomsid="22" score="15" description="故障点id,分数"></symptoms>
+        </fault>
+      </part>
+      <part partid="2" short="IGSW" partname="点火开关" partnumber="2" description="部件ID、部件简称、部件名称、部件编号">
+        <fault faultid="19" faultname="ST触点不良" score="0" description="故障ID、故障名称、故障点确定配分">
+          <symptoms symptomsid="31" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="1" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="39" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="30" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="25" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="19" score="5" description="故障点id,分数"></symptoms>
+        </fault>
+      </part>
+      <part partid="3" short="RLY" partname="启动继电器" partnumber="3" description="部件ID、部件简称、部件名称、部件编号">
+        <fault faultid="4" faultname="触点不良" score="0" description="故障ID、故障名称、故障点确定配分">
+          <symptoms symptomsid="13" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="10" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="35" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="16" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="33" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="28" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="5" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="4" score="4.5" description="故障点id,分数"></symptoms>
+        </fault>
+        <fault faultid="1" faultname="线圈断路" score="0" description="故障ID、故障名称、故障点确定配分">
+          <symptoms symptomsid="31" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="39" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="25" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="30" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="19" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="1" score="5" description="故障点id,分数"></symptoms>
+        </fault>
+      </part>
+      <part partid="4" short="SHFT" partname="挡位开关" partnumber="4" description="部件ID、部件简称、部件名称、部件编号">
+        <fault faultid="16" faultname="P触点不良" score="0" description="故障ID、故障名称、故障点确定配分">
+          <symptoms symptomsid="13" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="10" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="35" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="33" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="4" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="28" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="5" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="16" score="4.5" description="故障点id,分数"></symptoms>
+        </fault>
+      </part>
+      <part partid="5" short="MTR" partname="启动机" partnumber="5" description="部件ID、部件简称、部件名称、部件编号">
+        <fault faultid="13" faultname="电机绕组断路" score="0" description="故障ID、故障名称、故障点确定配分">
+          <symptoms symptomsid="10" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="35" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="16" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="33" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="4" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="28" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="5" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="13" score="4.5" description="故障点id,分数"></symptoms>
+        </fault>
+        <fault faultid="12" faultname="电磁开关不良" score="0" description="故障ID、故障名称、故障点确定配分">
+          <symptoms symptomsid="12" score="10" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="41" score="5" description="故障点id,分数"></symptoms>
+        </fault>
+        <fault faultid="10" faultname="吸拉线圈断路" score="0" description="故障ID、故障名称、故障点确定配分">
+          <symptoms symptomsid="13" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="35" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="16" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="33" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="4" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="5" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="10" score="4.5" description="故障点id,分数"></symptoms>
+        </fault>
+        <fault faultid="9" faultname="保持线圈断路" score="0" description="故障ID、故障名称、故障点确定配分">
+          <symptoms symptomsid="9" score="15" description="故障点id,分数"></symptoms>
+        </fault>
+      </part>
+      <part partid="6" short="ISL" partname="启动控制线ST端 ISL" partnumber="6" description="部件ID、部件简称、部件名称、部件编号">
+        <fault faultid="25" faultname="断路" score="0" description="故障ID、故障名称、故障点确定配分">
+          <symptoms symptomsid="31" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="1" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="39" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="30" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="19" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="25" score="5" description="故障点id,分数"></symptoms>
+        </fault>
+      </part>
+      <part partid="7" short="RGL" partname="继电器控制地线 RGL" partnumber="7" description="部件ID、部件简称、部件名称、部件编号">
+        <fault faultid="31" faultname="断路" score="0" description="故障ID、故障名称、故障点确定配分">
+          <symptoms symptomsid="1" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="39" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="30" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="25" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="19" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="31" score="5" description="故障点id,分数"></symptoms>
+        </fault>
+      </part>
+      <part partid="8" short="FS1" partname="保险丝FUSE1" partnumber="9" description="部件ID、部件简称、部件名称、部件编号">
+        <fault faultid="5" faultname="熔断" score="0" description="故障ID、故障名称、故障点确定配分">
+          <symptoms symptomsid="10" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="13" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="35" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="16" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="33" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="4" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="28" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="5" score="4.5" description="故障点id,分数"></symptoms>
+        </fault>
+      </part>
+      <part partid="9" short="RBL" partname="继电器触点电源线 RBL" partnumber="10" description="部件ID、部件简称、部件名称、部件编号">
+        <fault faultid="28" faultname="断路" score="0" description="故障ID、故障名称、故障点确定配分">
+          <symptoms symptomsid="13" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="10" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="35" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="16" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="33" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="4" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="5" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="28" score="4.5" description="故障点id,分数"></symptoms>
+        </fault>
+      </part>
+      <part partid="10" short="SML" partname="启动机50线 SML" partnumber="11" description="部件ID、部件简称、部件名称、部件编号">
+        <fault faultid="35" faultname="断路" score="0" description="故障ID、故障名称、故障点确定配分">
+          <symptoms symptomsid="13" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="10" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="16" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="33" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="4" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="28" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="5" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="35" score="4.5" description="故障点id,分数"></symptoms>
+        </fault>
+      </part>
+      <part partid="11" short="BML" partname="启动机30线 BML" partnumber="12" description="部件ID、部件简称、部件名称、部件编号">
+        <fault faultid="41" faultname="马达端接柱不良" score="0" description="故障ID、故障名称、故障点确定配分">
+          <symptoms symptomsid="41" score="10" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="12" score="5" description="故障点id,分数"></symptoms>
+        </fault>
+      </part>
+      <part partid="15" short="RCL" partname="继电器线圈电源线 RCL" partnumber="16" description="部件ID、部件简称、部件名称、部件编号">
+        <fault faultid="39" faultname="断路" score="0" description="故障ID、故障名称、故障点确定配分">
+          <symptoms symptomsid="31" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="1" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="39" score="5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="30" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="25" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="19" score="2" description="故障点id,分数"></symptoms>
+        </fault>
+      </part>
+      <part partid="16" short="FS3" partname="保险丝FUSE3" partnumber="17" description="部件ID、部件简称、部件名称、部件编号">
+        <fault faultid="30" faultname="熔断" score="0" description="故障ID、故障名称、故障点确定配分">
+          <symptoms symptomsid="31" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="1" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="39" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="25" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="19" score="2" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="30" score="5" description="故障点id,分数"></symptoms>
+        </fault>
+      </part>
+      <part partid="17" short="RSL" partname="档位开关电源线 RSL" partnumber="18" description="部件ID、部件简称、部件名称、部件编号">
+        <fault faultid="33" faultname="断路" score="0" description="故障ID、故障名称、故障点确定配分">
+          <symptoms symptomsid="13" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="10" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="35" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="16" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="4" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="28" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="5" score="1.5" description="故障点id,分数"></symptoms>
+          <symptoms symptomsid="33" score="4.5" description="故障点id,分数"></symptoms>
+        </fault>
+      </part>
+    </data>

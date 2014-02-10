@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<smnksdata>
+<!--time:考试时间
+ erroeScore:错一题的分数
+erroeNum:允许错的次数
+-->
+<mnks _time="10" _erroeScore="4" _erroeNum="3"/>
+</smnksdata>

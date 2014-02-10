@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<!--原因库-->
+<data  description="原因库">
+<ReasonsPart partid="0" partname="蓄电池" partnumber="S0018"  description="故障部件">
+<described Reasonsid="1" description = "故障点" > <![CDATA[桩头氧化]]></described>
+</ReasonsPart>
+<ReasonsPart partid="1" partname="点火开关" partnumber="S0020"  description="故障部件">
+<described Reasonsid="4" description = "故障点" > <![CDATA[1端子不良]]></described>
+<described Reasonsid="5" description = "故障点" > <![CDATA[4端子不良]]></described>
+</ReasonsPart>
+<ReasonsPart partid="2" partname="起动控制线路ST端" partnumber="S0021"  description="故障部件">
+<described Reasonsid="6" description = "故障点" > <![CDATA[断路]]></described>
+</ReasonsPart>
+<ReasonsPart partid="3" partname="继电器" partnumber="S0022"  description="故障部件">
+<described Reasonsid="8" description = "故障点" > <![CDATA[线圈断路]]></described>
+<described Reasonsid="9" description = "故障点" > <![CDATA[触点不良]]></described>
+</ReasonsPart>
+<ReasonsPart partid="4" partname="继电器控制地线" partnumber="S0023"  description="故障部件">
+<described Reasonsid="11" description = "故障点" > <![CDATA[断路]]></described>
+</ReasonsPart>
+<ReasonsPart partid="5" partname="保险丝FUSE1" partnumber="S0016"  description="故障部件">
+<described Reasonsid="14" description = "故障点" > <![CDATA[熔断]]></described>
+</ReasonsPart>
+<ReasonsPart partid="6" partname="继电器触点电源线" partnumber="S0001"  description="故障部件">
+<described Reasonsid="16" description = "故障点" > <![CDATA[断路]]></described>
+</ReasonsPart>
+<ReasonsPart partid="6" partname="挡位开关" partnumber="S0001"  description="故障部件">
+<described Reasonsid="16" description = "故障点" > <![CDATA[P/N位触点不良]]></described>
+</ReasonsPart>
+<ReasonsPart partid="6" partname="马达50线" partnumber="S0001"  description="故障部件">
+<described Reasonsid="16" description = "故障点" > <![CDATA[断路]]></described>
+</ReasonsPart>
+<ReasonsPart partid="6" partname="马达" partnumber="S0001"  description="故障部件">
+<described Reasonsid="16" description = "故障点" > <![CDATA[保持线圈断路]]></described>
+<described Reasonsid="17" description = "故障点" > <![CDATA[吸拉线圈断路]]></described>
+<described Reasonsid="17" description = "故障点" > <![CDATA[电磁开关不良]]></described>
+<described Reasonsid="17" description = "故障点" > <![CDATA[马达线圈断路]]></described>
+</ReasonsPart>
+<ReasonsPart partid="6" partname="马达30线" partnumber="S0001"  description="故障部件">
+<described Reasonsid="16" description = "故障点" > <![CDATA[断路]]></described>
+</ReasonsPart>
+</data>

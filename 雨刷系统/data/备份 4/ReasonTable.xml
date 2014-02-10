@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<!--症状表 -->
+<data description="症状表 ">
+<part partid="1" short="BATTARY" partname="蓄电池" partnumber="S0001" description="部件ID、部件简称、部件名称、部件编号">
+	 <fault faultid="1" faultname="桩头氧化" score="5" description="故障ID、故障名称、故障点确定配分">
+		  <symptoms symptomsid="1" score="5" description="原因id,分数"></symptoms>
+		 <symptoms symptomsid="4" score="2" description="原因id,分数"></symptoms>
+		 </fault>
+</part>
+<part partid="2" short="IGSW" partname="点火开关" partnumber="S0005" description="部件ID、部件简称、部件名称、部件编号">
+	 <fault faultid="3" faultname="1端子不良" score="5" description="故障ID、故障名称、故障点确定配分">
+		 <symptoms symptomsid="1" score="5" description="原因id,分数"></symptoms>
+		 <symptoms symptomsid="4" score="2" description="原因id,分数"></symptoms>
+		 <symptoms symptomsid="6" score="1" description="原因id,分数"></symptoms>
+		 <symptoms symptomsid="8" score="1" description="原因id,分数"></symptoms>
+		 <symptoms symptomsid="11" score="1" description="原因id,分数"></symptoms>
+		 </fault>
+	<fault faultid="4" faultname="4端子不良" score="5" description="故障ID、故障名称、故障点确定配分">
+		 <symptoms symptomsid="1" score="5" description="原因id,分数"></symptoms>
+		 <symptoms symptomsid="4" score="2" description="原因id,分数"></symptoms>
+		 <symptoms symptomsid="7" score="1" description="原因id,分数"></symptoms>
+		 <symptoms symptomsid="8" score="1" description="原因id,分数"></symptoms>
+		 <symptoms symptomsid="11" score="1" description="原因id,分数"></symptoms>
+		 </fault>
+	
+</part>
+</data>

@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<data>
+<state _name="START" _id="0" >
+	<fault _name="BATTARY" chName="蓄电池" >
+		<faultPart _name="正常" _v="9">
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,1,1,1"/>
+		</faultPart>
+		<faultPart _name="负极桩头氧化" _v="8">
+			<line poinId="11" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="22" _v="8" />
+			<flash _name="1,1,0,1,0,0"/>
+		</faultPart>
+	</fault>
+	<fault _name="IGSW" chName="点火开关">
+		<faultPart _name="正常" _v="9">
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,1,1,1"/>
+		</faultPart>
+		<faultPart _name="1端子不良" _v="12">
+			<line poinId="5" _v="0" />
+			<line poinId="13" _v="0" />
+			<line poinId="22" _v="12" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+		<faultPart _name="4端子不良" _v="12">
+			<line poinId="7" _v="0" />
+			<line poinId="13" _v="0" />
+			<line poinId="22" _v="12" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+	</fault>
+	<fault _name="FS1" chName="保险丝">
+		<faultPart _name="正常" _v="9">
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,1,1,1"/>
+		</faultPart>
+		<faultPart _name="熔断" _v="12">
+			<line poinId="11" _v="0" />
+			<line poinId="14" _v="0" />
+			<line poinId="22" _v="12" />
+			<flash _name="1,1,0,1,0,0"/>
+		</faultPart>
+	</fault>
+	<fault _name="ISL" chName="点火开关与保险丝连线">
+		<faultPart _name="正常" _v="9">
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,1,1,1"/>
+		</faultPart>
+		<faultPart _name="断路" _v="12">
+			<line poinId="8" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="22" _v="12" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+	</fault>
+	<fault _name="RLY" chName="继电器">
+		<faultPart _name="正常" _v="9">
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,1,1,1"/>
+		</faultPart>
+		<faultPart _name="线圈断路" _v="12">
+			<line poinId="11" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="22" _v="12" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+		<faultPart _name="触点不良" _v="12">
+			<line poinId="11" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="22" _v="12" />
+			<flash _name="1,1,0,1,0,0"/>
+		</faultPart>
+	</fault>
+	<fault _name="RGL" chName="继电器接地连线">
+		<faultPart _name="正常" _v="9">
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,1,1,1"/>
+		</faultPart>
+		<faultPart _name="断路" _v="12">
+			<line poinId="0" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="22" _v="12" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+	</fault>
+	<fault _name="RBL" chName="保险丝1与继电器连线">
+		<faultPart _name="正常" _v="9">
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,1,1,1"/>
+		</faultPart>
+		<faultPart _name="断路" _v="12">
+			<line poinId="11" _v="0" />
+			<line poinId="15" _v="0" />
+			<line poinId="22" _v="12" />
+			<flash _name="1,1,0,1,0,0"/>
+		</faultPart>
+	</fault>
+	<fault _name="SHFT" chName="档位开关">
+		<faultPart _name="正常" _v="9">
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,1,1,1"/>
+		</faultPart>
+		<faultPart _name="触点不良" _v="12">
+			<line poinId="11" _v="0" />
+			<line poinId="18" _v="0" />
+			<line poinId="22" _v="12" />
+			<flash _name="1,1,0,1,0,0"/>
+		</faultPart>
+	</fault>
+	<fault _name="SML" chName="启动机与档位开关连线">
+		<faultPart _name="正常" _v="9">
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,1,1,1"/>
+		</faultPart>
+		<faultPart _name="断路" _v="12">
+			<line poinId="11" _v="0" />
+			<line poinId="19" _v="0" />
+			<line poinId="22" _v="12" />
+			<flash _name="1,1,0,1,0,0"/>
+		</faultPart>
+	</fault>
+	<fault _name="BML" chName="启动机与蓄电池连线">
+		<faultPart _name="正常" _v="9">
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,1,1,1"/>
+		</faultPart>
+		<faultPart _name="不良" _v="12">
+			<line poinId="11" _v="0" />
+			<line poinId="" _v="" />
+			<line poinId="22" _v="0" />
+			<flash _name="1,1,0,1,0,0"/>
+		</faultPart>
+	</fault>
+	<fault _name="MTR" chName="启动机">
+		<faultPart _name="正常" _v="9">
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,1,1,1"/>
+		</faultPart>
+		<faultPart _name="保持线圈断路" _v="12">
+			<line poinId="11" _v="0" />
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,1,0,1"/>
+		</faultPart>
+		<faultPart _name="吸拉线圈断路" _v="12">
+			<line poinId="11" _v="0" />
+			<line poinId="20" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,1,0,0"/>
+		</faultPart>
+		<faultPart _name="电磁开关不良" _v="12">
+			<line poinId="11" _v="0" />
+			<line poinId="20" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,1,0,1"/>
+		</faultPart>
+		<faultPart _name="马达线圈断路" _v="12">
+			<line poinId="11" _v="0" />
+			<line poinId="20" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,1,0,0"/>
+		</faultPart>
+	</fault>
+	
+</state>
+
+<state _name="OFF/ON" _id="1" >
+	<fault _name="BATTARY" chName="蓄电池">
+		<faultPart _name="正常" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+		<faultPart _name="负极桩头氧化" _v="0">
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<line poinId="" _v="" />
+			<flash _name="0,0,0,0,0,0"/>
+		</faultPart>
+	</fault>
+	<fault _name="IGSW" chName="点火开关">
+		<faultPart _name="正常" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+		<faultPart _name="1端子不良" _v="12">
+			<line poinId="5" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+		<faultPart _name="4端子不良" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="22" _v="12" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+	</fault>
+	<fault _name="FS1" chName="保险丝">
+		<faultPart _name="正常" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+		<faultPart _name="熔断" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="14" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+	</fault>
+	<fault _name="ISL" chName="点火开关与保险丝连线">
+		<faultPart _name="正常" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+		<faultPart _name="断路" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+	</fault>
+	<fault _name="RLY" chName="继电器">
+		<faultPart _name="正常" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+		<faultPart _name="线圈断路" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+		<faultPart _name="触点不良" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+	</fault>
+	<fault _name="RGL" chName="继电器接地连线">
+		<faultPart _name="正常" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+		<faultPart _name="断路" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+	</fault>
+	<fault _name="RBL" chName="保险丝1与继电器连线">
+		<faultPart _name="正常" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+		<faultPart _name="断路" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="15" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+	</fault>
+	<fault _name="SHFT" chName="档位开关">
+		<faultPart _name="正常" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+		<faultPart _name="触点不良" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+	</fault>
+	<fault _name="SML" chName="启动机与档位开关连线">
+		<faultPart _name="正常" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+		<faultPart _name="断路" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="22" _v="12" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+	</fault>
+	<fault _name="BML" chName="启动机与蓄电池连线">
+		<faultPart _name="正常" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+		<faultPart _name="不良" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+	</fault>
+	<fault _name="MTR" chName="启动机">
+		<faultPart _name="正常" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="22" _v="0" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+		<faultPart _name="保持线圈断路" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+		<faultPart _name="吸拉线圈断路" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+		<faultPart _name="电磁开关不良" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+		<faultPart _name="马达线圈断路" _v="12">
+			<line poinId="6/7" _v="0" />
+			<line poinId="16" _v="0" />
+			<line poinId="" _v="" />
+			<flash _name="1,1,0,0,0,0"/>
+		</faultPart>
+	</fault>	
+</state>
+
+</data>

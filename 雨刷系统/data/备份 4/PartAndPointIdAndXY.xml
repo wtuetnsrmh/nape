@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<data>
+<part _name="BATTARY">
+	<point pointid="2" dk_x="90.3" dk_y="460.9" description="点的ID，断开时点的XY坐标" />
+	<point pointid="3" dk_x="90.3" dk_y="386.9" description="点的ID，断开时点的XY坐标" />
+</part>
+<part _name="BL">
+	<point pointid="3" dk_x="90.3" dk_y="386.9" description="点的ID，断开时点的XY坐标" />
+	<point pointid="4" dk_x="114.3" dk_y="167.8" description="点的ID，断开时点的XY坐标" />
+</part>
+<part _name="FS2">
+	<point pointid="4" dk_x="128.3" dk_y="167.8" description="点的ID，断开时点的XY坐标" />
+	<point pointid="5" dk_x="170.5" dk_y="167.6" description="点的ID，断开时点的XY坐标" />
+</part>
+<part _name="IBL">
+	<point pointid="5" dk_x="182.8" dk_y="167.8" description="点的ID，断开时点的XY坐标" />
+	<point pointid="8" dk_x="263.3" dk_y="167.8" description="点的ID，断开时点的XY坐标" />
+</part>
+<part _name="IGSW">
+	<point pointid="8" dk_x="287.8" dk_y="165.6" description="点的ID，断开时点的XY坐标" />
+	<point pointid="10" dk_x="314.3" dk_y="143.2" description="点的ID，断开时点的XY坐标" />
+	<point pointid="11" dk_x="321.8" dk_y="165.6" description="点的ID，断开时点的XY坐标" />
+	<point pointid="9" dk_x="314.3" dk_y="188.7" description="点的ID，断开时点的XY坐标" />
+</part>
+<part _name="ISL">
+	<point pointid="9" dk_x="336.2" dk_y="189.2" description="点的ID，断开时点的XY坐标" />
+	<point pointid="12" dk_x="467.3" dk_y="190.7" description="点的ID，断开时点的XY坐标" />
+</part>
+<part _name="FS3">
+	<point pointid="12" dk_x="482.4" dk_y="188.7" description="点的ID，断开时点的XY坐标" />
+	<point pointid="13" dk_x="523.0" dk_y="189.9" description="点的ID，断开时点的XY坐标" />
+</part>
+<part _name="RCL">
+	<point pointid="13" dk_x="535.8" dk_y="190.7" description="点的ID，断开时点的XY坐标" />
+	<point pointid="15" dk_x="625.8" dk_y="189.2" description="点的ID，断开时点的XY坐标" />
+</part>
+<part _name="RLY">
+	<point pointid="14" dk_x="646.8" dk_y="164.6" description="点的ID，断开时点的XY坐标" />
+	<point pointid="15" dk_x="646.3" dk_y="189.2" description="点的ID，断开时点的XY坐标" />
+	<point pointid="16" dk_x="646.3" dk_y="231.7" description="点的ID，断开时点的XY坐标" />
+	<point pointid="17" dk_x="646.3" dk_y="255.7" description="点的ID，断开时点的XY坐标" />
+</part>
+<part _name="RGL">
+	<point pointid="16" dk_x="625.8" dk_y="231.7" description="点的ID，断开时点的XY坐标" />
+	<point pointid="18" dk_x="525.3" dk_y="247.6" description="点的ID，断开时点的XY坐标" />
+</part>
+<part _name="RSL">
+	<point pointid="17" dk_x="625.8" dk_y="255.7" description="点的ID，断开时点的XY坐标" />
+	<point pointid="19" dk_x="573.6" dk_y="291.8" description="点的ID，断开时点的XY坐标" />
+</part>
+<part _name="SHFT">
+	<point pointid="19" dk_x="573.6" dk_y="291.8" description="点的ID，断开时点的XY坐标" />
+	<point pointid="20" dk_x="553.0" dk_y="366.6" description="点的ID，断开时点的XY坐标" />
+</part>
+<part _name="SML">
+	<point pointid="20" dk_x="553.0" dk_y="366.6" description="点的ID，断开时点的XY坐标" />
+	<point pointid="21" dk_x="244.8" dk_y="389.1" description="点的ID，断开时点的XY坐标" />
+</part>
+<part _name="MTR">
+	<point pointid="21" dk_x="244.8" dk_y="404.1" description="点的ID，断开时点的XY坐标" />
+	<point pointid="22" dk_x="189.3" dk_y="404.1" description="点的ID，断开时点的XY坐标" />
+	<point pointid="23" dk_x="235.2" dk_y="566.6" description="点的ID，断开时点的XY坐标" />
+	<point pointid="25" dk_x="189.3" dk_y="469.1" description="点的ID，断开时点的XY坐标" />
+</part>
+<part _name="BML">
+	<point pointid="3" dk_x="90.3" dk_y="386.9" description="点的ID，断开时点的XY坐标" />
+	<point pointid="22" dk_x="189.3" dk_y="389.1" description="点的ID，断开时点的XY坐标" />
+</part>
+<part _name="BL1">
+	<point pointid="3" dk_x="90.3" dk_y="386.9" description="点的ID，断开时点的XY坐标" />
+	<point pointid="6" dk_x="114.3" dk_y="115.3" description="点的ID，断开时点的XY坐标" />
+</part>
+<part _name="FS1">
+	<point pointid="6" dk_x="128.5" dk_y="115.1" description="点的ID，断开时点的XY坐标" />
+	<point pointid="7" dk_x="170.5" dk_y="115.1" description="点的ID，断开时点的XY坐标" />
+</part>
+<part _name="RBL">
+	<point pointid="7" dk_x="182.8" dk_y="115.3" description="点的ID，断开时点的XY坐标" />
+	<point pointid="14" dk_x="626.3" dk_y="164.6" description="点的ID，断开时点的XY坐标" />
+</part>
+
+</data>

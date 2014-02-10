@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<tooldata>
+<tool _id="1">
+<toolName name="万能表"/>	
+<toolImage _url="images/tool/万能表.png"/>	
+</tool>
+
+<tool _id="2">
+<toolName name="连线"/>	
+<toolImage _url="images/tool/连线.png"/>	
+</tool>
+
+<tool _id="3">
+<toolName name="蓄电池"/>	
+<toolImage _url="images/tool/蓄电池.png"/>	
+</tool>
+
+<tool _id="4">
+<toolName name="蓄电池,万能表,蓄电池,万能表,蓄电池,万能表"/>	
+<toolImage _url="images/tool/万能表.png,images/tool/蓄电池.png,images/tool/蓄电池.png,images/tool/万能表.png,images/tool/蓄电池.png,images/tool/万能表.png"/>	
+</tool>
+
+</tooldata>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<tooldata>
+	<tool _id="1" _name="正常">
+		<_state id="1" _name="断电">
+			<_content id="1" _name="熔断丝">
+				<_locale pointId="1,2" />
+				<_record v="/" Ω="0"  score="3"/>
+				<_symptoms frame="/"   score="0"/>
+				<_standard v="/" Ω="0"/>
+				<_performance normal="1"   score="3"/>
+			</_content>
+			
+		</_state>
+		
+	</tool>
+
+	<tool _id="2" _name="熔断丝断">
+		<_state id="1" _name="断电">
+			<_content id="1" _name="熔断丝">
+				<_locale pointId="1,2" />
+				<_record v="/" Ω="∞"  score="3"/>
+				<_symptoms frame="/"   score="0"/>
+				<_standard v="/" Ω="0"/>
+				<_performance normal="0"   score="3"/>
+			</_content>
+			
+		</_state>
+		
+	</tool>
+	
+	
+</tooldata>

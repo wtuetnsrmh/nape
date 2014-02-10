@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<data _name="故障诊断表">
+<state _name="症状描述" >
+<sub _content="马达无动作反应" />
+<sub _content="马达空转" />
+<sub _content="马达只有咔咔声" />
+<sub _content="点火开关无动作反应" />
+<sub _content="档位开关无动作反应" />
+<sub _content="继电器无动作反应" />
+</state>
+<state _name="原因分析" >
+<sub _content="蓄电池负极桩头氧化" />
+<sub _content="点火开关1端子不良" />
+<sub _content="点火开关4端子不良" />
+<sub _content="点火开关跟保险丝3断路" />
+<sub _content="继电器线圈断路" />
+<sub _content="继电器触点不良" />
+<sub _content="继电器接地连线断路" />
+<sub _content="保险丝1与继电器连线断路" />
+<sub _content="档位开关触点不良" />
+<sub _content="启动机与档位开关连线断路" />
+<sub _content="启动机与蓄电池连线断路" />
+<sub _content="启动机保持线圈断路" />
+<sub _content="启动机吸拉线圈断路" />
+<sub _content="启动机电磁开关不良" />
+<sub _content="启动机马达线圈断路" />
+</state>
+</data>

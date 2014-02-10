@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<linedata>
+<!--id:表示哪根线，线的MC中哪一帧
+ _starId:这条线开始的起始点ID
+_endId:这条线结束点的ID
+_score:这条线的分数
+-->
+<line _id="1" _starId="1" _endId="2" _score="6"/>
+<line _id="2" _starId="3" _endId="4" _score="6"/>
+<line _id="3" _starId="3" _endId="6" _score="6"/>
+<line _id="4" _starId="3" _endId="20" _score="6"/>
+<line _id="5" _starId="7" _endId="12" _score="6"/>
+<line _id="6" _starId="5" _endId="8" _score="6"/>
+<line _id="7" _starId="9" _endId="10" _score="6"/>
+<line _id="8" _starId="11" _endId="13" _score="6"/>
+<line _id="9" _starId="16" _endId="14" _score="6"/>
+<line _id="10" _starId="17" _endId="15" _score="6"/>
+<line _id="11" _starId="19" _endId="18" _score="6"/>
+<line _id="12" _starId="21" _endId="22" _score="6"/>
+</linedata>

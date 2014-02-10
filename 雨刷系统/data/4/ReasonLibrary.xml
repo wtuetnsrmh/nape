@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+      <data description="部件故障原因库">
+        <ReasonsPart partid="1" short="BATTARY" partname="蓄电池" partnumber="1" description="故障部件">
+          <described Reasonsid="23" description="故障ID">
+            <![CDATA[
+严重亏电
+            ]]>
+          </described>
+          <described Reasonsid="22" description="故障ID">
+            <![CDATA[
+正极桩头氧化
+            ]]>
+          </described>
+        </ReasonsPart>
+        <ReasonsPart partid="2" short="IGSW" partname="点火开关" partnumber="2" description="故障部件">
+          <described Reasonsid="19" description="故障ID">
+            <![CDATA[
+ST触点不良
+            ]]>
+          </described>
+        </ReasonsPart>
+        <ReasonsPart partid="3" short="RLY" partname="启动继电器" partnumber="3" description="故障部件">
+          <described Reasonsid="1" description="故障ID">
+            <![CDATA[
+线圈断路
+            ]]>
+          </described>
+          <described Reasonsid="4" description="故障ID">
+            <![CDATA[
+触点不良
+            ]]>
+          </described>
+        </ReasonsPart>
+        <ReasonsPart partid="4" short="SHFT" partname="挡位开关" partnumber="4" description="故障部件">
+          <described Reasonsid="16" description="故障ID">
+            <![CDATA[
+P触点不良
+            ]]>
+          </described>
+        </ReasonsPart>
+        <ReasonsPart partid="5" short="MTR" partname="启动机" partnumber="5" description="故障部件">
+          <described Reasonsid="9" description="故障ID">
+            <![CDATA[
+保持线圈断路
+            ]]>
+          </described>
+          <described Reasonsid="10" description="故障ID">
+            <![CDATA[
+吸拉线圈断路
+            ]]>
+          </described>
+          <described Reasonsid="13" description="故障ID">
+            <![CDATA[
+电机绕组断路
+            ]]>
+          </described>
+          <described Reasonsid="12" description="故障ID">
+            <![CDATA[
+电磁开关不良
+            ]]>
+          </described>
+        </ReasonsPart>
+        <ReasonsPart partid="6" short="ISL" partname="启动控制线ST端 ISL" partnumber="6" description="故障部件">
+          <described Reasonsid="25" description="故障ID">
+            <![CDATA[
+断路
+            ]]>
+          </described>
+        </ReasonsPart>
+        <ReasonsPart partid="7" short="RGL" partname="继电器控制地线 RGL" partnumber="7" description="故障部件">
+          <described Reasonsid="31" description="故障ID">
+            <![CDATA[
+断路
+            ]]>
+          </described>
+        </ReasonsPart>
+        <ReasonsPart partid="8" short="FS1" partname="保险丝FUSE1" partnumber="9" description="故障部件">
+          <described Reasonsid="5" description="故障ID">
+            <![CDATA[
+熔断
+            ]]>
+          </described>
+        </ReasonsPart>
+        <ReasonsPart partid="9" short="RBL" partname="继电器触点电源线 RBL" partnumber="10" description="故障部件">
+          <described Reasonsid="28" description="故障ID">
+            <![CDATA[
+断路
+            ]]>
+          </described>
+        </ReasonsPart>
+        <ReasonsPart partid="10" short="SML" partname="启动机50线 SML" partnumber="11" description="故障部件">
+          <described Reasonsid="35" description="故障ID">
+            <![CDATA[
+断路
+            ]]>
+          </described>
+        </ReasonsPart>
+        <ReasonsPart partid="11" short="BML" partname="启动机30线 BML" partnumber="12" description="故障部件">
+          <described Reasonsid="38" description="故障ID">
+            <![CDATA[
+断路
+            ]]>
+          </described>
+          <described Reasonsid="41" description="故障ID">
+            <![CDATA[
+马达端接柱不良
+            ]]>
+          </described>
+        </ReasonsPart>
+        <ReasonsPart partid="15" short="RCL" partname="继电器线圈电源线 RCL" partnumber="16" description="故障部件">
+          <described Reasonsid="39" description="故障ID">
+            <![CDATA[
+断路
+            ]]>
+          </described>
+        </ReasonsPart>
+        <ReasonsPart partid="16" short="FS3" partname="保险丝FUSE3" partnumber="17" description="故障部件">
+          <described Reasonsid="30" description="故障ID">
+            <![CDATA[
+熔断
+            ]]>
+          </described>
+        </ReasonsPart>
+        <ReasonsPart partid="17" short="RSL" partname="档位开关电源线 RSL" partnumber="18" description="故障部件">
+          <described Reasonsid="33" description="故障ID">
+            <![CDATA[
+断路
+            ]]>
+          </described>
+        </ReasonsPart>
+        <ReasonsPart partid="18" short="FS2" partname="保险丝FUSE2" partnumber="19" description="故障部件">
+          <described Reasonsid="42" description="故障ID">
+            <![CDATA[
+熔断
+            ]]>
+          </described>
+        </ReasonsPart>
+      </data>
+     

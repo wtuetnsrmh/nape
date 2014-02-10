@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<tooldata>
+	<tool _id="1" _name="正常">
+		<_state id="1" _name="断电">
+			<_content id="1" _name="吸拉线圈">
+				<_locale pointId="50,20" />
+				<_record v="/" Ω="?" score="3"/>
+				<_symptoms frame="/" score="0"/>
+				<_standard v="/" Ω="?"/>
+				<_performance normal="1"  score="3"/>
+			</_content>
+			<_content id="2" _name="保持线圈">
+				<_locale pointId="50,31" />
+				<_record v="/" Ω="?" score="3" />
+				<_symptoms frame="/" score="0" />
+				<_standard v="/" Ω="?"/>
+				<_performance normal="1" score="3"/>
+			</_content>
+			<_content id="3" _name="铜片触点">
+				<_locale pointId="30,20" />
+				<_record v="/" Ω="∞" score="3" />
+				<_symptoms frame="/" score="0" />
+				<_standard v="/" Ω="∞"/>
+				<_performance normal="1" score="3"/>
+			</_content>
+			<_content id="4" _name="电机绕组">
+				<_locale pointId="20,31" />
+				<_record v="/" Ω="?" score="3" />
+				<_symptoms frame="/" score="0" />
+				<_standard v="/" Ω="?"/>
+				<_performance normal="1" score="3"/>
+			</_content>
+		</_state>
+		<_state id="2" _name="通电">
+			<_content id="1" _name="电磁开关">
+				<_locale pointId="20,31" />
+				<_record v="12" Ω="/" score="3" />
+				<_symptoms frame="1" score="3"/>
+				<_standard v="12" Ω="/"/>
+				<_performance normal="1" score="3"/>
+			</_content>
+			<_content id="2" _name="电机">
+				<_locale pointId="/,/" />
+				<_record v="/" Ω="/" score="3" />
+				<_symptoms frame="0" score="3"/>
+				<_standard v="/" Ω="/"/>
+				<_performance normal="1" score="3"/>
+			</_content>
+		</_state>	
+	</tool>
+	
+	<tool _id="2" _name="吸拉线圈断路">
+		<_state id="1" _name="断电">
+			<_content id="1" _name="吸拉线圈">
+				<_locale pointId="50,20" />
+				<_record v="/" Ω="∞" score="3" />
+				<_symptoms frame="/" score="0" />
+				<_standard v="/" Ω="?"/>
+				<_performance normal="0" score="3"/>
+			</_content>
+			<_content id="2" _name="保持线圈">
+				<_locale pointId="50,31" />
+				<_record v="/" Ω="?" score="3" />
+				<_symptoms frame="/" score="0" />
+				<_standard v="/" Ω="?"/>
+				<_performance normal="1" score="3"/>
+			</_content>
+			<_content id="3" _name="铜片触点">
+				<_locale pointId="30,20" />
+				<_record v="/" Ω="∞" score="3" />
+				<_symptoms frame="/" score="0" />
+				<_standard v="/" Ω="∞"/>
+				<_performance normal="1" score="3"/>
+			</_content>
+			<_content id="4" _name="电机绕组">
+				<_locale pointId="20,31" />
+				<_record v="/" Ω="?" score="3" />
+				<_symptoms frame="/" score="0" />
+				<_standard v="/" Ω="?"/>
+				<_performance normal="1" score="3"/>
+			</_content>
+		</_state>
+		<_state id="2" _name="通电">
+			<_content id="1" _name="电磁开关">
+				<_locale pointId="20,31" />
+				<_record v="12" Ω="/" score="3" />
+				<_symptoms frame="0" score="3"/>
+				<_standard v="12" Ω="/"/>
+				<_performance normal="0" score="3"/>
+			</_content>
+			<_content id="2" _name="电机">
+				<_locale pointId="/,/" />
+				<_record v="/" Ω="/" score="3" />
+				<_symptoms frame="0" score="3"/>
+				<_standard v="/" Ω="/"/>
+				<_performance normal="0" score="3"/>
+			</_content>
+		</_state>	
+	</tool>
+	
+	
+	
+	<tool _id="3" _name="保持线圈断路">
+		<_state id="1" _name="断电">
+			<_content id="1" _name="吸拉线圈">
+				<_locale pointId="50,20" />
+				<_record v="/" Ω="?" score="3" />
+				<_symptoms frame="/" score="0" />
+				<_standard v="/" Ω="?"/>
+				<_performance normal="1" score="3"/>
+			</_content>
+			<_content id="2" _name="保持线圈">
+				<_locale pointId="50,31" />
+				<_record v="/" Ω="∞" score="3" />
+				<_symptoms frame="/" score="0" />
+				<_standard v="/" Ω="?"/>
+				<_performance normal="0" score="3"/>
+			</_content>
+			<_content id="3" _name="铜片触点">
+				<_locale pointId="30,20" />
+				<_record v="/" Ω="∞" score="3" />
+				<_symptoms frame="/" score="0" />
+				<_standard v="/" Ω="∞"/>
+				<_performance normal="1" score="3"/>
+			</_content>
+			<_content id="4" _name="电机绕组">
+				<_locale pointId="20,31" />
+				<_record v="/" Ω="?" score="3"/>
+				<_symptoms frame="/" score="0" />
+				<_standard v="/" Ω="?"/>
+				<_performance normal="1" score="3"/>
+			</_content>
+		</_state>
+		<_state id="2" _name="通电">
+			<_content id="1" _name="电磁开关">
+				<_locale pointId="20,31" />
+				<_record v="12" Ω="/" score="3"/>
+				<_symptoms frame="0"  score="3"/>
+				<_standard v="12" Ω="/"/>
+				<_performance normal="0"  score="3"/>
+			</_content>
+			<_content id="2" _name="电机">
+				<_locale pointId="/,/" />
+				<_record v="/" Ω="/" score="3"/>
+				<_symptoms frame="0"  score="3"/>
+				<_standard v="/" Ω="/"/>
+				<_performance normal="1"  score="3"/>
+			</_content>
+		</_state>	
+	</tool>
+	
+	<tool _id="4" _name="触点不良">
+		<_state id="1" _name="断电">
+			<_content id="1" _name="吸拉线圈">
+				<_locale pointId="50,20" />
+				<_record v="/" Ω="?" score="3"/>
+				<_symptoms frame="/" score="0" />
+				<_standard v="/" Ω="?"/>
+				<_performance normal="1"  score="3"/>
+			</_content>
+			<_content id="2" _name="保持线圈">
+				<_locale pointId="50,31" />
+				<_record v="/" Ω="∞" score="3"/>
+				<_symptoms frame="/" score="0" />
+				<_standard v="/" Ω="?"/>
+				<_performance normal="1"  score="3"/>
+			</_content>
+			<_content id="3" _name="铜片触点">
+				<_locale pointId="30,20" />
+				<_record v="/" Ω="∞" score="3"/>
+				<_symptoms frame="/" score="0" />
+				<_standard v="/" Ω="∞"/>
+				<_performance normal="1"  score="3"/>
+			</_content>
+			<_content id="4" _name="电机绕组">
+				<_locale pointId="20,31" />
+				<_record v="/" Ω="?" score="3"/>
+				<_symptoms frame="/" score="0" />
+				<_standard v="/" Ω="?"/>
+				<_performance normal="1"  score="3"/>
+			</_content>
+		</_state>
+		<_state id="2" _name="通电">
+			<_content id="1" _name="电磁开关">
+				<_locale pointId="20,31" />
+				<_record v="4" Ω="/" score="3"/>
+				<_symptoms frame="1"  score="3"/>
+				<_standard v="12" Ω="/"/>
+				<_performance normal="1"  score="3"/>
+			</_content>
+			<_content id="2" _name="电机">
+				<_locale pointId="/,/" />
+				<_record v="/" Ω="/" score="3"/>
+				<_symptoms frame="0"  score="3"/>
+				<_standard v="/" Ω="/"/>
+				<_performance normal="0"  score="3"/>
+			</_content>
+		</_state>	
+	</tool>
+
+	<tool _id="5" _name="电机绕组断路">
+		<_state id="1" _name="断电">
+			<_content id="1" _name="吸拉线圈">
+				<_locale pointId="50,20" />
+				<_record v="/" Ω="?" score="3"/>
+				<_symptoms frame="/" score="0" />
+				<_standard v="/" Ω="?"/>
+				<_performance normal="1"  score="3"/>
+			</_content>
+			<_content id="2" _name="保持线圈">
+				<_locale pointId="50,31" />
+				<_record v="/" Ω="?" score="3"/>
+				<_symptoms frame="/" score="0" />
+				<_standard v="/" Ω="?"/>
+				<_performance normal="1"  score="3"/>
+			</_content>
+			<_content id="3" _name="铜片触点">
+				<_locale pointId="30,20" />
+				<_record v="/" Ω="∞" score="3"/>
+				<_symptoms frame="/" score="0" />
+				<_standard v="/" Ω="∞"/>
+				<_performance normal="1"  score="3"/>
+			</_content>
+			<_content id="4" _name="电机绕组">
+				<_locale pointId="20,31" />
+				<_record v="/" Ω="∞" score="3"/>
+				<_symptoms frame="/" score="0" />
+				<_standard v="/" Ω="?"/>
+				<_performance normal="0"  score="3"/>
+			</_content>
+		</_state>
+		<_state id="2" _name="通电">
+			<_content id="1" _name="电磁开关">
+				<_locale pointId="20,31" />
+				<_record v="12" Ω="/" score="3"/>
+				<_symptoms frame="0"  score="3"/>
+				<_standard v="12" Ω="/"/>
+				<_performance normal="0"  score="3"/>
+			</_content>
+			<_content id="2" _name="电机">
+				<_locale pointId="/,/" />
+				<_record v="/" Ω="/" score="3"/>
+				<_symptoms frame="0"  score="3"/>
+				<_standard v="/" Ω="/"/>
+				<_performance normal="0"  score="3"/>
+			</_content>
+		</_state>	
+	</tool>
+</tooldata>
